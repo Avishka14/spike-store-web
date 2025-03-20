@@ -47,6 +47,105 @@
 
             </div>
 
+            <!-- Side Panel (60%) -->
+
+            <!-- Log In Panel (40%) -->
+            <div class="col-lg-4 col-md-12 col-sm-12">
+                <div class="row login-panel-row">
+
+                    <div class="create-account-container text-center">
+                        
+                        <div class="ca-logo-img-container">
+                               <img src="img/webimg/spike-logo.png" >
+                        </div>
+
+                        <div class="head-container-ca">
+                            <h3> Let's Create an Account !</h3>
+                        </div>
+
+                        <div class="input-container-ca">
+
+                            <div class="input-container">
+                                <input type="text" id="customInput" class="custom-input" required>
+                                <label for="customInput" class="custom-label">First Name</label>
+                                <span class="custom-underline"></span>
+                            </div>
+
+                            <div class="input-container">
+                                <input type="text" id="customInput" class="custom-input" required>
+                                <label for="customInput" class="custom-label">Last Name</label>
+                                <span class="custom-underline"></span>
+                            </div>
+
+                            <div class="input-container">
+                                <input type="text" id="customInput" class="custom-input" required>
+                                <label for="customInput" class="custom-label">Mobile</label>
+                                <span class="custom-underline"></span>
+                            </div>
+
+                            <div class="input-container">
+                                <input type="text" id="customInput" class="custom-input" required>
+                                <label for="customInput" class="custom-label">E-Mail</label>
+                                <span class="custom-underline"></span>
+                            </div>
+
+                            <div class="input-container password-container">
+                                <input type="password" id="customPassword" class="custom-input" required>
+                                <label for="customPassword" class="custom-label">Password</label>
+                                <span class="custom-underline"></span>
+                                <span id="eyeIcon" class="eye-icon" onclick="togglePassword()">🔒</span>
+                            </div>
+                        </div>
+
+                        <div class="row col-12">
+
+                            <div class="gender-dropdown col-6">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Select Gender
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="col-6">
+                                <label class="toggle-container"> Remeber Me
+                                    <input type="checkbox" class="hidden-toggle">
+                                    <span class="toggle-emoji"> <i class="bi bi-check2"></i> </span>
+                                </label>
+
+                            </div>
+
+                        </div>
+
+                        <div class="ca-button-container col-8">
+
+                            <div class="row ">
+                                <hr class="m-3">
+                                <p>Fill the Required Informations and Click the Create Button to Create a Account
+                                    if You Already have a Account Click On Log In !
+                                </p>
+                                <div class="col-4">
+                                    <button class="animated-button blue-button">Create</button>
+                                </div>
+                                <div class="col-4 ">
+                                    <button class="animated-button green-button">Log In</button>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+
+
+
+
+                    </div>
+
+                </div>
+            </div>
+            <!-- Log In Panel (40%) -->
 
 
         </div>
