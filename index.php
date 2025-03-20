@@ -10,8 +10,7 @@
     <link rel="stylesheet" href="style.css" />
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-
-</head>
+   </head>
 
 <body>
 
@@ -49,14 +48,14 @@
 
             <!-- Side Panel (60%) -->
 
-            <!-- Log In Panel (40%) -->
-            <div class="col-lg-4 col-md-12 col-sm-12">
+            <div class="col-lg-4 col-md-12 col-sm-12 ">
                 <div class="row login-panel-row">
 
-                    <div class="create-account-container text-center">
-                        
+                    <!-- Log In Panel (40%) -->
+                    <div class="create-account-container text-center " id="createAcBox">
+
                         <div class="ca-logo-img-container">
-                               <img src="img/webimg/spike-logo.png" >
+                            <img src="img/webimg/spike-logo.png">
                         </div>
 
                         <div class="head-container-ca">
@@ -130,7 +129,54 @@
                                     <button class="animated-button blue-button">Create</button>
                                 </div>
                                 <div class="col-4 ">
+                                    <button class="animated-button green-button" onclick="switchSignView()">Log In</button>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Log In Panel (40%) -->
+
+                    <div class="log-in-container text-center d-none" id="logInBox">
+
+                        <div class="ca-logo-img-container">
+                            <img src="img/webimg/spike-logo.png">
+                        </div>
+
+                        <div class="head-container-ca">
+                            <h3> Welcome Back !</h3>
+                            <p>Use Your E-Mail and Password to Log In to Your Account</p>
+                        </div>
+
+                        <div class="input-container">
+                            <input type="text" id="customInput" class="custom-input" required>
+                            <label for="customInput" class="custom-label">E-Mail</label>
+                            <span class="custom-underline"></span>
+                        </div>
+
+                        <div class="input-container password-container">
+                            <input type="password" id="customPassword" class="custom-input" required>
+                            <label for="customPassword" class="custom-label">Password</label>
+                            <span class="custom-underline"></span>
+                            <span id="eyeIcon" class="eye-icon" onclick="togglePassword()">🔒</span>
+                        </div>
+
+
+
+                        <div class="ca-button-container col-8">
+
+                            <div class="row ">
+                                <hr class="m-3">
+                                <p>Fill Required Informations and Click Log In to Log in with Your
+                                    Account ! If you Dont have a Account Use Create Button to Create an Account !
+                                </p>
+                                <div class="col-4 ">
                                     <button class="animated-button green-button">Log In</button>
+                                </div>
+                                <div class="col-4">
+                                    <button class="animated-button blue-button" onclick="switchSignView()">Create</button>
                                 </div>
                             </div>
 
@@ -138,14 +184,12 @@
 
 
 
-
-
-
                     </div>
+
 
                 </div>
             </div>
-            <!-- Log In Panel (40%) -->
+
 
 
         </div>

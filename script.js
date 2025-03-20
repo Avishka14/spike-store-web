@@ -9,3 +9,11 @@ function togglePassword() {
         eyeIcon.textContent = "🔒";
     }
 }
+
+function switchSignView(){
+    var logIn = document.getElementById("logInBox");
+    var CreateAc = document.getElementById("createAcBox");
+
+    logIn.classList.toggle("d-none");
+    CreateAc.classList.toggle("d-none");
+}
