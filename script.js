@@ -17,3 +17,7 @@ function switchSignView(){
     logIn.classList.toggle("d-none");
     CreateAc.classList.toggle("d-none");
 }
+
+function navBarExpand(){
+    document.getElementById("navPanelSm").classList.toggle("d-none");
+}
