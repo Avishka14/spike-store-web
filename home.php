@@ -17,20 +17,44 @@
 <body>
 
     <!-- header -->
-    <?php  
-     include "header.php";
-     ?>
+    <?php
+    include "header.php";
+    ?>
     <!-- header -->
 
-<div class="col-12 container fluid">
-    <div class="row">
+    <div class="col-12 container-fluid">
+        <div class="row">
+
+
+            <!-- main banner -->
+            <div class="col-lg-8 col-md-12 col-sm-12 main-banner-container">
+                <div class="row">
+
+                        <img  class="main-banner-img-container" src="img/banners/Plant-Shop-Singapore-Your-One-Stop-Destination-for-Indoor-and-Outdoor-Plants.jpg" alt="">
+
+        
+                </div>
+            </div>
+            <!-- main banner -->
+
+             <!-- second banner -->
+              <div class="col-lg-4 col-md-12 col-sm-12 second-banner-container">
+                <div class="row">
+                   <img src="img/banners/2.jpg" style="height: 400px;" class="pb-3">
+                   <img src="img/banners/2.jpg" style="height: 400px;" class="pb-3">
+                </div>
+
+              </div>
+             <!-- second banner -->
+
+             
 
 
 
 
 
+        </div>
     </div>
-</div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="script.js"></script>

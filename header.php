@@ -14,7 +14,7 @@
 
 <body>
 
-    <div class="col-12 header-container fixed-top">
+    <div class="col-12 header-container ">
 
         <nav class="navbar navbar-expand-lg bg-body-tertiary ">
             <div class="container-fluid top-header">
